@@ -76,7 +76,7 @@ public class Test1
 	}
 	
 	public void bad3() {
-		Cipher c = Cipher.getInstance("RSA/ECB/OAEPWITHSHA1ANDMGF1PADDING");
+		Cipher c = Cipher.getInstance("RSA/ECB/OAEPWithSHA-256ANDMGF1PADDING");
 	}
 	
 	public void bad4() {
